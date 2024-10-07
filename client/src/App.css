@@ -1,0 +1,29 @@
+.carousel-caption {
+  position: absolute;
+  bottom: 0;
+  width: 70%;
+  /* max-width: 1100px; */
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  color: hsl(0, 0%, 100%);
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+  margin-bottom: 220px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carousel-inner img{
+  object-fit: cover; 
+  max-height: 650px; 
+  max-width: 100%; 
+}
+
+
+.division-card:hover{
+  color: white;
+  border-bottom: 5px solid red;
+  border-radius: 8px;
+}
